@@ -1,0 +1,19 @@
+.listCard{
+    cursor: pointer;
+    margin-top: 2px;
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(195, 195, 233);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listCard:hover {
+    transform: scale(1.007);
+}
+.listCard>p{
+    width: 50px;
+}
+.listCard>label {
+    margin-left: 30px;
+}
